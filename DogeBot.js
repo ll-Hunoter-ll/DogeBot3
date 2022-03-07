@@ -3445,7 +3445,7 @@ break
 					const userLevel = getLevelingLevel(sender)
 					const userXp = getLevelingXp(sender)
 					if (userLevel === undefined && userXp === undefined) return reply(ind.lvlnul())
-					const requiredXp = 5000 * (Math.pow(2, userLevel) - 1)
+					const requiredXp = 500 * (Math.pow(2, userLevel) - 1)
 					resul = `◪ *ʟᴇᴠᴇʟ*\n  ├─ ► 𝗡𝗮𝗺𝗲 : ${pushname}\n  ├─ ► 𝗥𝗮𝗻𝗸 : ${role}\n  ├─ ► 𝗫𝗣 : ${userXp}/${requiredXp}\n  └─ ► 𝗟𝗲𝘃𝗲𝗹 : ${userLevel}\n`
 					DogeXeonOP.sendMessage(from, resul, text, { quoted: mek})
 					.catch(async (err) => {
@@ -3463,7 +3463,7 @@ break
 					} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 					}
-					profile = `╭─「 *💖ʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ💖* 」\n│• 𝗡𝗮𝗺𝗲 : ${pushname}\n│• 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split("@")[0]}\n│• 𝗕𝗶𝗼 : ${bio_user}\n│• 𝗫𝗣 : ${getLevelingXp(sender)}\n│• 𝗟𝗲𝘃𝗲𝗹 : ${getLevelingLevel(sender)}\n│• 𝗥𝗮𝗻𝗸 : ${role}\n│• 𝗣𝗠 : wa.me/${sender.split("@")[0]}\n╰──────────────────`
+					profile = `╭─「 *𖡝ʏᴏᴜʀ ᴘʀᴏꜰɪʟᴇ𖡝* 」\n│• 𝗡𝗮𝗺𝗲 : ${pushname}\n│• 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split("@")[0]}\n│• 𝗕𝗶𝗼 : ${bio_user}\n│• 𝗫𝗣 : ${getLevelingXp(sender)}\n│• 𝗟𝗲𝘃𝗲𝗹 : ${getLevelingLevel(sender)}\n│• 𝗥𝗮𝗻𝗸 : ${role}\n│• 𝗣𝗠 : wa.me/${sender.split("@")[0]}\n╰──────────────────`
 					buffer = await getBuffer(ppimg)
 					DogeXeonOP.sendMessage(from, buffer, image, {quoted: mek, caption: profile})
 					break
