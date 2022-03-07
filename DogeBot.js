@@ -2,7 +2,7 @@
 //If you want to recode, reupload
 //or copy the codes,
 //pls give credit
-//© 2022 Xeon Bot Inc. Doge Bot 
+//© 2022 SPoP Bot Inc. Doge Bot 
 //Thank you to Lord Buddha, Family and Myself
 //═══════════════════════════════════════════════════════//
 const
@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '31620000112'
+developerName= 'ɦᴜπᴏᴛᴇʀ. 王⁩'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -511,7 +511,7 @@ for (let anji of setik){
                 addLevelingLevel(sender, 1)   
                 var lvlup = (`╭───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」
 │
-├ 💜 𝗡𝗮𝗺𝗲 : ${pushname}
+├ ➪ 𝗡𝗮𝗺𝗲 : ${pushname}
 ├ 📱 𝗡𝘂𝗺𝗯𝗲𝗿 : ${sender.split('@')[0]}
 ├ 🏅 𝗥𝗮𝗻𝗸 : ${role}
 ├ 🔖 𝗫𝗣 : ${getLevelingXp(sender)}
@@ -1732,7 +1732,7 @@ reply(mess.wait)
 bo = args.join(" ")
 ini = await fetchJson(`https://apikey-bear3.herokuapp.com/api/yt/playmp4?query=${bo}&apikey=${KingOfBearKey}`)
 mp4 = await getBuffer(ini.url)
-DogeXeonOP.sendMessage(from, mp4, video, { quoted: mek, caption: `Here is your video🐶` })
+DogeXeonOP.sendMessage(from, mp4, video, { quoted: mek, caption: `Here is your video𖡝` })
 break
 case 'mp3':
 reply(mess.wait)
@@ -2843,7 +2843,7 @@ vcard2 = 'BEGIN:VCARD\n'
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
 { quoted: fgi, 
 })
-reply(`_The above contact is my owner 🐶🦄_`)
+reply(`_The above contact is my owner _`)
 break
 case 'developer':
 
@@ -2854,7 +2854,7 @@ members_ids.push(mem.jid)
 vcard2 = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${developerName}\n`
-+ `ORG: Developer Of Doge Bot ;\n`
++ `ORG: Developer Of SPoP Bot ;\n`
 + `TEL;type=CELL;type=VOICE;waid=${developerNo}:${developerNo}\n`
 + 'END:VCARD'.trim()
 DogeXeonOP.sendMessage(from, {displayName: `The owner ${botname}`, vcard: vcard2}, contact, 
@@ -2868,7 +2868,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*🐶𝗗𝗼𝗴𝗲 𝗕𝗼𝘁 𝗩𝟯 𝗦𝗰𝗿𝗶𝗽𝘁🐶*\n\n_• 𝒀𝒐𝒖𝑻𝒖𝒃𝒆: https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A_\n_• 𝑮𝒊𝒕𝑯𝒖𝒃: https://github.com/DGXeon/DogeBot3_\n\n_𝙄𝙛 𝙮𝙤𝙪 𝙬𝙞𝙨𝙝 𝙩𝙤 𝙗𝙪𝙮 𝙪𝙣𝙚𝙣𝙘𝙧𝙮𝙥𝙩𝙚𝙙 𝙨𝙘𝙧𝙞𝙥𝙩 𝙘𝙡𝙞𝙘𝙠 𝙤𝙣 𝙩𝙝𝙚 𝙗𝙪𝙮 𝙨𝙘𝙧𝙞𝙥𝙩 𝙗𝙪𝙩𝙩𝙤𝙣 𝙗𝙚𝙡𝙤𝙬._`
+scsell = `*𖡝Şɪх Ƥατӊʂ σƒ Ƥαɪɳ𖡝*\n\n_• my WhatsApp group: https://chat.whatsapp.com/DlmfgSkiSQwBSBY5Cl4Pcr_\n_• my instagram: https://instagram.com/h0ss3n?utm_medium=copy_link_\n\n_Made by Hunoter._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
@@ -3167,13 +3167,13 @@ case 'ninjaname':
 if (args.length < 1) return reply(`[❗] Example :\n*${prefix}${command} Naruto*`)  
 F = body.slice(11)
 anunname = await fetchJson(`https://docs-jojo.herokuapp.com/api/ninja_name?name=${F}`)
-anu1 = `🐶 *NAME* : ${anunname.your_name}\n`
-anu1 += `🐶 *NINJA* : ${anu.result}\n`
+anu1 = `𖡝 *NAME* : ${anunname.your_name}\n`
+anu1 += `𖡝 *NINJA* : ${anu.result}\n`
 reply(anu1)
 break
 case 'stylishcoolname':
 anuscn = await fetchJson(`https://leyscoders-api.herokuapp.com/api/nick-epep?apikey=${Leyscoders}`)
-reply(`*🐶HERE IS YOUR RANDOM STYLISH NAME🐶*\n\n${anuscn.result}`)
+reply(`*𖡝HERE IS YOUR RANDOM STYLISH NAME𖡝*\n\n${anuscn.result}`)
 break
 case 'ssweb':
 case 'ss':
@@ -4732,7 +4732,7 @@ break
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `🐶 @${mem.jid.split('@')[0]}\n`
+						teks += `𖡝 @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
