@@ -504,7 +504,7 @@ for (let anji of setik){
             try {
                 if (currentLevel === undefined && checkId === undefined) addLevelingId(sender)
                 const amountXp = Math.floor(Math.random() * 10) + 100
-                const requiredXp = 5000 * (Math.pow(2, currentLevel) - 1)
+                const requiredXp = 500 * (Math.pow(2, currentLevel) - 1)
                 var getLevel = getLevelingLevel(sender)
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
@@ -519,7 +519,7 @@ for (let anji of setik){
 │
 ╰───「 *🥳ʟᴇᴠᴇʟ ᴜᴘ🥳* 」`)
 		  but = [{ buttonId: `!menu`, buttonText: { displayText: 'MENU 🗃️' }, type: 1 }]
-          sendButton(from, lvlup, '*Doge Bot*', but)
+          sendButton(from, lvlup, '*SPoP Bott*', but)
 
                 }
             } catch (err) {
@@ -2868,7 +2868,7 @@ case 'script':
 case 'sourcode':
 
 scpic = fs.readFileSync('./media/scpic.jpg')
-scsell = `*𖡝Şɪх Ƥατӊʂ σƒ Ƥαɪɳ𖡝*\n\n_• my WhatsApp group: https://chat.whatsapp.com/DlmfgSkiSQwBSBY5Cl4Pcr_\n_• my instagram: https://instagram.com/h0ss3n?utm_medium=copy_link_\n\n_Made by Hunoter._`
+scsell = `*𖡝Şɪх Ƥατӊʂ σƒ Ƥαɪɳ𖡝*\n\n_• my WhatsApp group: https://chat.whatsapp.com/DlmfgSkiSQwBSBY5Cl4Pcr_\n• my instagram: https://instagram.com/h0ss3n?utm_medium=copy_link_\n\n_Made by Hunoter._`
 but = [
 { buttonId: `${prefix}rentbot`, buttonText: { displayText: 'BUY SCRIPT 💵' }, type: 1 },
 { buttonId: `${prefix}developer`, buttonText: { displayText: 'DEVELOPER 👨🏼‍💻' }, type: 1 }
